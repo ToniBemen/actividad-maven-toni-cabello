@@ -67,5 +67,6 @@ view.LoginView
 
 Aquest projecte no utilitza JDBC, SQL, ORM, MongoDB, serveis externs ni bases de dades. La persistencia ha de quedar limitada a fitxers locals.
 
-Issue 1:
-He executat el programa però no executa perquè hi ha errors.
+Issue 1: Execució
+RA1-ISSUE-03 pendent: encara no s'ha carregat C:\eclipse-workspace\actividad-maven-toni-cabello\files\items.txt
+Introduïu número d'empleat: 
