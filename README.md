@@ -70,3 +70,6 @@ Aquest projecte no utilitza JDBC, SQL, ORM, MongoDB, serveis externs ni bases de
 Issue 1: Execució
 RA1-ISSUE-03 pendent: encara no s'ha carregat C:\eclipse-workspace\actividad-maven-toni-cabello\files\items.txt
 Introduïu número d'empleat: 
+
+Issue 2: Ruta relativa
+La ruta relativa és "usersFile = new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "model" + File.separator + "files" + File.separator + "users.txt");" i es troba a DaoImpIFile.java, el resultat es troba a l'issue en forma de captura.
