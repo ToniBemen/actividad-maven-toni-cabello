@@ -73,3 +73,7 @@ Introduïu número d'empleat:
 
 Issue 2: Ruta relativa
 La ruta relativa és "usersFile = new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "model" + File.separator + "files" + File.separator + "users.txt");" i es troba a DaoImpIFile.java, el resultat es troba a l'issue en forma de captura.
+
+Issue 3: Carregar inventari des de fitxer
+Amb la línia try (BufferedReader ...) creem un try-with-resources per a la lectura de fitxers, amb readLine() llegim cada línia i la guardem com un String i amb Product product = parseProductLine(Linea); preparem la crida per la conversió de línia a objecte product.
+
